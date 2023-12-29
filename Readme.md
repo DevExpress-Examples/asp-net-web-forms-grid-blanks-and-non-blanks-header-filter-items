@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Grid View for ASP.NET Web Forms - How to create ShowBlanksValue and ShowNonBlanksValue items in the header filter
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128533717/)**
-<!-- run online end -->
 
 [GridViewDataComboBoxColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn) does not render **(Blank)** and **(NonBlank)** items if the [HeaderFilterMode](https://docs.devexpress.com/AspNet/DevExpress.Web.GridDataColumnSettings.HeaderFilterMode) property is set to `CheckedList`. 
 Call the [FilterValue.CreateShowBlanksValue](https://docs.devexpress.com/AspNet/DevExpress.Web.FilterValue.CreateShowBlanksValue(DevExpress.Web.GridViewDataColumn-System.String)) and [FilterValue.CreateShowNonBlanksValue](https://docs.devexpress.com/AspNet/DevExpress.Web.FilterValue.CreateShowNonBlanksValue(DevExpress.Web.GridViewDataColumn-System.String)) methods in the [HeaderFilterFillItems](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.HeaderFilterFillItems) event handler to add these items.
